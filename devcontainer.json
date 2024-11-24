@@ -1,0 +1,17 @@
+{
+    "name": "Moodle Plugin Development",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "workspaceFolder": "/workspace",
+    "extensions": [
+        "ms-azuretools.vscode-docker",
+        "bmewburn.vscode-intelephense-client",
+        "felixfbecker.php-intellisense"
+    ],
+    "settings": {
+        "php.validate.executablePath": "/usr/local/bin/php"
+    },
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    "forwardPorts": [3000]
+}
